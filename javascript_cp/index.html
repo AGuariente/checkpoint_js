@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkpoint_2</title>
+  <style>
+    main {
+        text-align: center;
+        width: 100%;
+        margin: 5px;
+    }
+    
+    form {
+        display: inline-block;
+        width: 450px;
+    }
+    
+    form label {
+        display:block;
+        font-size: 20px;
+    }
+    
+    form input {
+        display: block;
+        margin: 6px;
+        padding: 8px 2px;
+        width: 100%;
+    }
+    </style>  
+  </head>
+<body>
+  
+    <center><h1>FORMULÁRIO</h1></center>
+    <br>
+    <br>
+    <main><form name="formulario" onsubmit="return validarFormulario()">
+    
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" required>
+    <br>
+    <label for="segundoNome">Segundo Nome:</label>
+    <input type="text" name="segundoNome" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" required>
+    <br>
+    <label for="confirmaçãoSenha">Confirmação de Senha:</label>
+    <input type="password" name="confirmaçãoSenha" required>
+    <br>
+
+    <input type="submit" value="Enviar">
+  </form></main>
+
+</body>
+</html>

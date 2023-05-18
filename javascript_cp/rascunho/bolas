@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint</title>
+<style>
+main {
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+form {
+    display: inline-block;
+    width: 450px;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+}
+
+form input {
+    display: block;
+    margin: 6px;
+    padding: 8px 2px;
+    width: 100%;
+}
+</style>
+
+</head>
+<body>
+        
+        <center><h1>FORMULÁRIO</h1></center>
+        <br>
+        <br>
+            <main><form id="formularioContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="segundo nome">Segundo nome:</label>
+            <input type="segundo nome" id="segundo nome" name="segundo nome">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="text" id="senha" name="senha">
+            <br>
+            <label for="comfirmação de senha">Confirmação de Senha:</label>
+            <input type="text" id="confirmação de senha" name="confirmação de senha">
+            <br>
+            <input type="submit" value="Enviar">
+           </form></main>
+       
+</body>
+</html>
