@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkpoint_2</title>
+  <style>
+    main {
+        text-align: center;
+        width: 100%;
+        margin: 5px;
+    }
+    
+    form {
+        display: inline-block;
+        width: 450px;
+    }
+    
+    form label {
+        display:block;
+        font-size: 20px;
+    }
+    
+    form input {
+        display: block;
+        margin: 6px;
+        padding: 8px 2px;
+        width: 100%;
+    }
+    
+    html[dark] {
+      background-color: black;
+      color: white;
+    }
+  </style>  
+  
+  <script src="./cp2.js"></script>
+</head>
+<body>
+
+  <label for="input-dark-mode">
+    <a class="button">Modo dark</a>
+</label>
+<input type="checkbox" id="input-dark-mode"> 
+    
+  <center><h1>FORMULÁRIO</h1></center>
+    <br>
+    <br>
+    <main><form name="formulario" onsubmit="return validarFormulario()">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br>
+    <label for="segundoNome">Segundo Nome:</label>
+    <input type="text" name="segundoNome" id="segundoNome" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" required>
+    <br>
+    <label for="confirmaçãoSenha">Confirmação de Senha:</label>
+    <input type="password" name="confirmaçãoSenha" id="confirmaçãoSenha" required>
+    <br>
+
+    <input type="submit" value="Enviar">
+  </form></main>
+
+</body>
+</html>
